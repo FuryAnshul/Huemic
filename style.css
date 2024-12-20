@@ -1,0 +1,134 @@
+@import url("https://fonts.cdnfonts.com/css/twentieth-century-condensed-400");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Twentieth Century", sans-serif;
+}
+
+#logo {
+    width: 220px;
+    height: auto;
+}
+
+.menu {
+    width: 28px;
+    height: 34px;
+}
+
+.img-container {
+    padding: 10px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-category {
+    width: 306.9px;
+    position: relative;
+}
+
+.img-category img {
+    height: 460.35px;
+    width: 303px;
+    border-radius: 12px;
+    transform: scale(1);
+    transition: transform 0.3s;
+    /* Add transition here */
+}
+
+.img-category span{
+    position: absolute;
+    top: 420px;
+    left: 25px;
+    height: 158.85px;
+    font-size: 20px;
+    font-family: 'Futura', sans-serif;
+}
+
+.zoom:hover img {
+    -ms-transform: scale(1.03);
+    /* IE 9 */
+    -webkit-transform: scale(1.03);
+    /* Safari 3-8 */
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#hambur ul li {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    list-style: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer {
+    padding: 60px 40px 60px 40px;
+}
+
+.search_bar {
+    margin: 24px;
+    padding: 24px;
+    position: relative;
+}
+
+.search_bar {
+    margin: 24px;
+    padding: 0;
+    /* Removed padding for better control */
+    position: relative;
+}
+
+.search_bar i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #6c757d;
+    font-size: 1.2rem;
+    pointer-events: none;
+    /* Ensure the icon doesn't block input interaction */
+}
+
+.search_bar input {
+    width: 95%;
+    /* Full width of the container */
+    border-radius: 24px;
+    padding: 12px 24px 12px 48px;
+    /* Space for the icon */
+    /* margin-right: 20px; */
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+}
+
+.search_bar input:focus {
+    box-shadow: none;
+    border-color: #6c757d;
+    /* Optional: change border color on focus */
+    outline: none;
+}
+
+.search_bar a {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    color: #53575c;
+    font-size: 1.4rem;
+    pointer-events: none;
+    /* Ensure the icon doesn't block input interaction */
+}
+
+#SnitchLuxe{
+    margin: 25px 0px 5px 0px;
+    padding: 25px 0px 5px 0px;
+    cursor: pointer;
+}
